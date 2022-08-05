@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "cross-env NODE_ENV=production node ./server.js",
-    "start:dev": "cross-env NODE_ENV=development nodemon ./server.js"
+    "start:dev": "cross-env NODE_ENV=development nodemon ./app.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -10,7 +10,8 @@
     "express": "^4.18.1",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "promise-mysql2": "^1.0.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.12",
